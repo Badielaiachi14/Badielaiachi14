@@ -1,0 +1,23 @@
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String,Integer>empIds = new HashMap<>();
+        empIds.put("kane",123);
+        empIds.put("daryl",456);
+        empIds.put("carl",789);
+        empIds.put("michel",145);
+        System.out.println(empIds);
+        // to get someones ID we use inside sout
+        System.out.println(empIds.get("carl"));
+        //to check certain values
+        System.out.println(empIds.containsValue(456));
+        //replacing the same id and name
+        empIds.put("carl",12345678);
+        //replacing the values
+        empIds.replace("rick",777);
+        // put the id if absent
+        empIds.putIfAbsent("ichigo",106);
+        System.out.println(empIds);
+        }
+    }
