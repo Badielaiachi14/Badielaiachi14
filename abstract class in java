@@ -1,0 +1,28 @@
+abstract class main{
+    public String fname = "badi";
+    public String lname = "Elaichi";
+    public double age = 20;
+
+    public abstract void study();
+}
+
+class student extends main{
+    public double graduationyear =2024;
+
+    @Override
+    public void study() {
+        System.out.println("study all day long");
+    }
+}
+
+class Second{
+    public static void main(String[]args){
+        student obb = new student();
+        System.out.println("fname:"+obb.fname);
+        System.out.println("lname:"+obb.lname);
+        System.out.println("age:"+obb.age);
+        System.out.println("graduation year:"+obb.graduationyear);
+    }
+}
+
+
