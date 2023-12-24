@@ -1,3 +1,7 @@
+reduce the time complexity of the code i.e :- O(n/2)
+
+
+
 import java.util.Scanner;
 
 public class Main {
