@@ -1,0 +1,28 @@
+class a{
+    public void meth2(){
+        System.out.println("i am the print Statement oof meth2 from class A");
+    }
+    public void meth3(){
+        System.out.println("i am the print Statement of meth3 from class A");
+    }
+}
+
+class b extends a{
+    @Override
+    public void meth2(){
+        System.out.println("i am the print statement of method 4 from class a");
+    }
+    public void meth3(){
+        System.out.println("i am the print statement of method 5 from class a");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        a alpha = new a();
+        b beta = new b();
+        alpha.meth2();
+        alpha.meth3();
+        beta.meth2();
+        beta.meth3();
+    }
+}
