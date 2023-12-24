@@ -1,0 +1,65 @@
+class Account{
+    int a;
+    public void display(){
+        System.out.println("your account number is 12349908765");
+    }
+}
+
+class bank extends Account{
+   public void acc(){
+       System.out.println("your bank acc opened in ICICI bank");
+    }
+}
+
+class main{
+    public static void main(String [] args){
+        bank my = new bank();
+        my.display();
+        my.acc();
+
+    }
+}
+
+// another program
+
+
+class Animal{
+    String dog;
+    public void dog(){
+        System.out.println("i am a dog"+" "+"i can eat");
+    }
+}
+
+class dog extends Animal{
+    public void display(){
+        System.out.println("my name is rohu"+" "+"i can bark");
+    }
+}
+class main{
+    public static void main(String [] args){
+        dog husky = new dog();
+        husky.display();
+        husky.dog();
+    }
+}
+
+
+// third program
+
+
+class Vehicle{
+    protected String brand ="lamborghini";
+    public void hoonk(){
+        System.out.println("toot toot!");
+    }
+}
+
+class Car extends Vehicle{
+    private String modelName = "Avidator";
+
+        public static void main(String[] args) {
+            Car myfastcar = new Car();
+            myfastcar.hoonk();
+            System.out.println(myfastcar.brand+" "+myfastcar.modelName);
+    }
+    }
