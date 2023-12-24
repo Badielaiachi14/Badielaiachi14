@@ -1,0 +1,29 @@
+public class Main {
+    public static void main(String[] args) {
+        int value = 10;
+       value = value + 1;
+        boolean loop = 10>value;
+        while (value < 11){
+            System.out.println("hello"+value);
+            System.out.println(loop);
+
+        }
+
+// another program
+
+
+
+public class Main {
+   public static void main(String[] args) {
+
+        for (int i = 5; i > 3; ++i) {
+            System.out.println("hello world");
+        }
+        int temp = 30;
+        if(temp< 45){
+            System.out.println("*");
+        }
+
+
+    }
+}
