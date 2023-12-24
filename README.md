@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Badielaiachi14
+- 👋 Hi, I’m Vaibhav
 - 👀 I’m interested in web development and java programing 
 - 🌱 I’m currently learning java and web development 
 
